@@ -1,0 +1,20 @@
+{
+  "name": "espro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.7",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "fastify": "^4.28.0"
+  }
+}
