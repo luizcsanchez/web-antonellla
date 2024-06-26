@@ -2,7 +2,17 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Antonella Summit2",
+    "title": "Antonella Summit33",
     "details": "Feira gastronomica",
-    "maximumAttendees": 100
+    "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/2985bbb6-e92b-4ccf-b828-610ecbbe667a/attendees
+Content-Type: application/json
+
+{
+    "name": "Luiz Sanchez",
+    "email": "luizcsanchezzf0@gmail.com"
 }
