@@ -1,0 +1,8 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "Antonella Summit2",
+    "details": "Feira gastronomica",
+    "maximumAttendees": 100
+}
