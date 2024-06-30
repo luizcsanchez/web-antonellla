@@ -15,4 +15,9 @@ Content-Type: application/json
 {
     "name": "Luiz Sanchez",
     "email": "luizcsanchezzf0@gmail.com"
-}
+} 
+
+###
+
+GET http://localhost:3333/events/7b0691b8-9697-4da5-87a5-9e2a4a3792ca
+

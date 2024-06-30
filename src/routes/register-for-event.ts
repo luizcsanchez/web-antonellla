@@ -1,8 +1,7 @@
 import { FastifyInstance } from "fastify";
 import { ZodTypeProvider } from "fastify-type-provider-zod";
-import { promise, z } from "zod";
+import { z } from "zod";
 import { prisma } from "../lib/prisma";
-import { error } from "console";
 
 export async function registerForEvent(app: FastifyInstance) {
     app
